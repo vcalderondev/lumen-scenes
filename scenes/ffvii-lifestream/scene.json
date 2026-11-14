@@ -1,0 +1,249 @@
+{
+  "format": 1,
+  "id": "ffvii-lifestream",
+  "version": 1,
+  "name": "Motes of Light",
+  "author": "Lumen PSX",
+  "license": "CC-BY-4.0",
+  "description": "Darkness, a green light breathing from below and motes of light drifting up at every depth. Particles only. Original music.",
+  "games": [
+    {
+      "system": "psx",
+      "title": "Final Fantasy VII",
+      "serials": [
+        "SCUS-94163",
+        "SCUS-94164",
+        "SCUS-94165",
+        "SCES-00867",
+        "SCES-10867",
+        "SCES-20867",
+        "SCES-00868",
+        "SCES-10868",
+        "SCES-20868",
+        "SCES-00869",
+        "SCES-10869",
+        "SCES-20869",
+        "SCES-00900",
+        "SCES-10900",
+        "SCES-20900",
+        "SLPS-00700",
+        "SLPS-00701",
+        "SLPS-00702",
+        "SLPS-01057",
+        "SLPS-01058",
+        "SLPS-01059",
+        "SLPS-01060"
+      ]
+    }
+  ],
+  "music": {
+    "file": "music.mid",
+    "volume": 0.8
+  },
+  "resolution": 0.5,
+  "camera": {
+    "fov": 40,
+    "position": [
+      0,
+      0,
+      10
+    ],
+    "target": [
+      -1.2,
+      0.4,
+      0
+    ],
+    "orbit": {
+      "degrees": 7,
+      "period": 46
+    },
+    "bob": {
+      "amount": [
+        0,
+        0.25,
+        0
+      ],
+      "period": 13
+    }
+  },
+  "fog": {
+    "color": "#000000",
+    "near": 8,
+    "far": 32
+  },
+  "layers": [
+    {
+      "type": "gradient",
+      "stops": [
+        [
+          "#000000",
+          0
+        ],
+        [
+          "#000201",
+          0.55
+        ],
+        [
+          "#021208",
+          0.85
+        ],
+        [
+          "#04200f",
+          1
+        ]
+      ]
+    },
+    {
+      "type": "glow",
+      "positions": [
+        [
+          1.8,
+          -4.6,
+          -2
+        ],
+        [
+          4.8,
+          -5.2,
+          -7
+        ]
+      ],
+      "radius": 7.5,
+      "color": "#1fff66",
+      "intensity": 0.85,
+      "pulse": {
+        "period": 7,
+        "min": 0.55
+      }
+    },
+    {
+      "type": "glow",
+      "position": [
+        2.5,
+        -6,
+        -12
+      ],
+      "radius": 18,
+      "color": "#11b84c",
+      "intensity": 0.5,
+      "pulse": {
+        "period": 11,
+        "min": 0.7
+      }
+    },
+    {
+      "type": "particles",
+      "count": 380,
+      "seed": 31,
+      "box": [
+        -16,
+        -9,
+        -22,
+        18,
+        9,
+        -9
+      ],
+      "velocity": [
+        0.04,
+        0.32,
+        0
+      ],
+      "jitter": 0.6,
+      "size": 0.12,
+      "color": "#3dff7e",
+      "opacity": 0.85,
+      "blend": "add"
+    },
+    {
+      "type": "particles",
+      "count": 240,
+      "seed": 32,
+      "box": [
+        -1,
+        -6,
+        -5,
+        6,
+        7,
+        1
+      ],
+      "velocity": [
+        0.08,
+        0.55,
+        0
+      ],
+      "jitter": 0.9,
+      "size": 0.1,
+      "color": "#8affb4",
+      "opacity": 1,
+      "blend": "add"
+    },
+    {
+      "type": "particles",
+      "count": 220,
+      "seed": 33,
+      "box": [
+        -11,
+        -7,
+        -8,
+        12,
+        7,
+        3
+      ],
+      "velocity": [
+        0.03,
+        0.28,
+        0
+      ],
+      "jitter": 0.5,
+      "size": 0.08,
+      "color": "#62ff98",
+      "opacity": 1,
+      "blend": "add"
+    },
+    {
+      "type": "particles",
+      "count": 40,
+      "seed": 34,
+      "box": [
+        -8,
+        -6,
+        -6,
+        10,
+        6,
+        2
+      ],
+      "velocity": [
+        0.02,
+        0.22,
+        0
+      ],
+      "jitter": 0.6,
+      "size": 0.45,
+      "color": "#2bff70",
+      "opacity": 0.22,
+      "blend": "add"
+    },
+    {
+      "type": "particles",
+      "count": 14,
+      "seed": 35,
+      "box": [
+        -6,
+        -4,
+        4,
+        6,
+        4,
+        7.5
+      ],
+      "velocity": [
+        0.05,
+        0.15,
+        0
+      ],
+      "jitter": 0.3,
+      "size": 0.5,
+      "color": "#5cff93",
+      "opacity": 0.28,
+      "blend": "add"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "format": 1,
+  "scenes": [
+    {
+      "id": "ffvii-lifestream",
+      "version": 1,
+      "name": "Motes of Light",
+      "author": "Lumen PSX",
+      "license": "CC-BY-4.0",
+      "description": "Darkness, a green light breathing from below and motes of light drifting up at every depth. Particles only. Original music.",
+      "games": [
+        {
+          "system": "psx",
+          "title": "Final Fantasy VII",
+          "serials": [
+            "SCUS-94163",
+            "SCUS-94164",
+            "SCUS-94165",
+            "SCES-00867",
+            "SCES-10867",
+            "SCES-20867",
+            "SCES-00868",
+            "SCES-10868",
+            "SCES-20868",
+            "SCES-00869",
+            "SCES-10869",
+            "SCES-20869",
+            "SCES-00900",
+            "SCES-10900",
+            "SCES-20900",
+            "SLPS-00700",
+            "SLPS-00701",
+            "SLPS-00702",
+            "SLPS-01057",
+            "SLPS-01058",
+            "SLPS-01059",
+            "SLPS-01060"
+          ]
+        }
+      ],
+      "music": true,
+      "triangles": 0,
+      "bytes": 5409,
+      "files": [
+        {
+          "path": "scene.json",
+          "size": 3946,
+          "sha256": "48b78caebb7c67eade480a5ddafcca27909457a21201e28adcfd1a12a05f14cf"
+        },
+        {
+          "path": "music.mid",
+          "size": 1463,
+          "sha256": "4ad493bd7c6f12e59bcddddfc1e8457f893ce729cdab05b7147fc66fa53150e8"
+        }
+      ]
+    },
+    {
+      "id": "ffvii-reactor-city",
+      "version": 1,
+      "name": "Reactor City",
+      "author": "Lumen PSX",
+      "license": "CC-BY-4.0",
+      "description": "An industrial city at night: green-glowing reactors, smoke, a slow airship and drifting motes of energy. Original low-poly scene and music.",
+      "games": [
+        {
+          "system": "psx",
+          "title": "Final Fantasy VII",
+          "serials": [
+            "SCUS-94163",
+            "SCUS-94164",
+            "SCUS-94165",
+            "SCES-00867",
+            "SCES-10867",
+            "SCES-20867",
+            "SCES-00868",
+            "SCES-10868",
+            "SCES-20868",
+            "SCES-00869",
+            "SCES-10869",
+            "SCES-20869",
+            "SCES-00900",
+            "SCES-10900",
+            "SCES-20900",
+            "SLPS-00700",
+            "SLPS-00701",
+            "SLPS-00702",
+            "SLPS-01057",
+            "SLPS-01058",
+            "SLPS-01059",
+            "SLPS-01060"
+          ]
+        }
+      ],
+      "music": true,
+      "triangles": 4733,
+      "bytes": 132960,
+      "files": [
+        {
+          "path": "scene.json",
+          "size": 5887,
+          "sha256": "6daa806a78718c2228b70c42a423329b21d72608cb37758e1ca0e86b293107fd"
+        },
+        {
+          "path": "music.mid",
+          "size": 2805,
+          "sha256": "920c027b4e02c9e3877054697dcd66754ad465d55122fb6ee11865eaf035fabb"
+        },
+        {
+          "path": "models/moon.obj",
+          "size": 461,
+          "sha256": "87dcc0b4c535f4220a1d86d841a8e08ebc23319ac046cd01fad7d410f8fdae8a"
+        },
+        {
+          "path": "models/moon.mtl",
+          "size": 60,
+          "sha256": "6c6dfc39d272c5276eb6b281b5c0ced28020e37f3cd8ceada6dcbfb2a3bd20b1"
+        },
+        {
+          "path": "models/skyline.obj",
+          "size": 92040,
+          "sha256": "460d2359c26b561bf393e6fadd02b34ea7b5386ea930ca1635824cd4ea1195d9"
+        },
+        {
+          "path": "models/skyline.mtl",
+          "size": 340,
+          "sha256": "f05c605cc21b64698278a3086ff8bc144e4509ae34a5e05999c980fd3be7e8d3"
+        },
+        {
+          "path": "models/tower.obj",
+          "size": 13144,
+          "sha256": "ffdef210b8972726b76c82202566e447452911610c3fd9efad60f85f2955da04"
+        },
+        {
+          "path": "models/tower.mtl",
+          "size": 244,
+          "sha256": "11e8b88829b8905228ba279e54ec1dd27b1ae189f63907ed58c8dd983112e55c"
+        },
+        {
+          "path": "models/reactor.obj",
+          "size": 8229,
+          "sha256": "c69df063fdc46c4d69f2e9275386e88a1aa9dd4b4c848336cd489a4ea8dcfab7"
+        },
+        {
+          "path": "models/reactor.mtl",
+          "size": 195,
+          "sha256": "18e255c4c815fa3acba3fdf700d3a6633f8f2df320112a9cd85b68f9e1fea57b"
+        },
+        {
+          "path": "models/airship.obj",
+          "size": 2465,
+          "sha256": "587f73825a0debb9c5e566425fd20b10f3ac93d946c24404c2390434c849dd6e"
+        },
+        {
+          "path": "models/airship.mtl",
+          "size": 229,
+          "sha256": "63d62c9f44b87eb4a4cb580bd81e0d272ca14240cd56b76cbe0da8154fc57373"
+        },
+        {
+          "path": "models/foreground.obj",
+          "size": 6777,
+          "sha256": "5c57820af21ef0e63575550bfe7841b28323b794deca3f36e95081b8beacc51e"
+        },
+        {
+          "path": "models/foreground.mtl",
+          "size": 84,
+          "sha256": "ef15e122a8b458396132b1466d4668b72316f40d7d9284cac1e9dfd40eff48e7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "format": 1,
+  "id": "ffvii-reactor-city",
+  "version": 1,
+  "name": "Reactor City",
+  "author": "Lumen PSX",
+  "license": "CC-BY-4.0",
+  "description": "An industrial city at night: green-glowing reactors, smoke, a slow airship and drifting motes of energy. Original low-poly scene and music.",
+  "games": [
+    {
+      "system": "psx",
+      "title": "Final Fantasy VII",
+      "serials": [
+        "SCUS-94163",
+        "SCUS-94164",
+        "SCUS-94165",
+        "SCES-00867",
+        "SCES-10867",
+        "SCES-20867",
+        "SCES-00868",
+        "SCES-10868",
+        "SCES-20868",
+        "SCES-00869",
+        "SCES-10869",
+        "SCES-20869",
+        "SCES-00900",
+        "SCES-10900",
+        "SCES-20900",
+        "SLPS-00700",
+        "SLPS-00701",
+        "SLPS-00702",
+        "SLPS-01057",
+        "SLPS-01058",
+        "SLPS-01059",
+        "SLPS-01060"
+      ]
+    }
+  ],
+  "music": {
+    "file": "music.mid",
+    "volume": 0.8
+  },
+  "resolution": 0.5,
+  "camera": {
+    "fov": 42,
+    "position": [
+      -4,
+      12,
+      58
+    ],
+    "target": [
+      10,
+      10,
+      -20
+    ],
+    "orbit": {
+      "degrees": 5,
+      "period": 80
+    },
+    "bob": {
+      "amount": [
+        0,
+        0.35,
+        0
+      ],
+      "period": 16
+    }
+  },
+  "fog": {
+    "color": "#24543f",
+    "near": 40,
+    "far": 210
+  },
+  "light": {
+    "direction": [
+      0.45,
+      -0.55,
+      -0.7
+    ],
+    "color": "#7aa596",
+    "ambient": "#1e2a28"
+  },
+  "layers": [
+    {
+      "type": "gradient",
+      "stops": [
+        [
+          "#010405",
+          0
+        ],
+        [
+          "#06140f",
+          0.3
+        ],
+        [
+          "#1a4634",
+          0.52
+        ],
+        [
+          "#3d8562",
+          0.62
+        ]
+      ]
+    },
+    {
+      "type": "stars",
+      "count": 170,
+      "seed": 11,
+      "color": "#d8efe6",
+      "size": [
+        1,
+        2.6
+      ],
+      "area": [
+        0,
+        0,
+        1,
+        0.5
+      ],
+      "twinkle": 3.5
+    },
+    {
+      "type": "mesh",
+      "model": "models/moon.obj",
+      "position": [
+        95,
+        70,
+        -170
+      ],
+      "scale": 4.5,
+      "spin": {
+        "axis": "y",
+        "speed": 2
+      },
+      "fog": false
+    },
+    {
+      "type": "glow",
+      "position": [
+        95,
+        70,
+        -170
+      ],
+      "radius": 20,
+      "color": "#8fd3b8",
+      "intensity": 0.3
+    },
+    {
+      "type": "mesh",
+      "model": "models/skyline.obj"
+    },
+    {
+      "type": "mesh",
+      "model": "models/tower.obj",
+      "position": [
+        -14,
+        0,
+        -78
+      ]
+    },
+    {
+      "type": "mesh",
+      "model": "models/reactor.obj",
+      "instances": [
+        [
+          14,
+          0,
+          -18,
+          25,
+          1
+        ],
+        [
+          -22,
+          0,
+          -55,
+          -10,
+          0.9
+        ],
+        [
+          40,
+          0,
+          -70,
+          -35,
+          1.1
+        ]
+      ],
+      "pulse": {
+        "period": 3.2,
+        "min": 0.55
+      }
+    },
+    {
+      "type": "glow",
+      "positions": [
+        [
+          10.44,
+          18.1,
+          -18.54
+        ],
+        [
+          15.66,
+          15.6,
+          -21.53
+        ],
+        [
+          -24.35,
+          16.29,
+          -57.24
+        ],
+        [
+          -18.95,
+          14.04,
+          -56.75
+        ],
+        [
+          38.56,
+          19.91,
+          -73.69
+        ],
+        [
+          44.28,
+          17.16,
+          -70.36
+        ],
+        [
+          14,
+          9.6,
+          -18
+        ],
+        [
+          -22,
+          8.64,
+          -55
+        ],
+        [
+          40,
+          10.56,
+          -70
+        ]
+      ],
+      "radius": 2.6,
+      "color": "#4dff8f",
+      "intensity": 0.85,
+      "pulse": {
+        "period": 3.2,
+        "min": 0.55
+      }
+    },
+    {
+      "type": "glow",
+      "position": [
+        -14,
+        52.6,
+        -78
+      ],
+      "radius": 1.4,
+      "color": "#ff3b30",
+      "intensity": 0.9,
+      "pulse": {
+        "period": 1.6,
+        "min": 0.1
+      }
+    },
+    {
+      "type": "particles",
+      "count": 50,
+      "seed": 5,
+      "box": [
+        6,
+        17,
+        -26,
+        26,
+        40,
+        -12
+      ],
+      "velocity": [
+        0.6,
+        1.2,
+        0
+      ],
+      "jitter": 0.9,
+      "size": 3.2,
+      "color": "#4a6b5f",
+      "opacity": 0.18,
+      "blend": "alpha"
+    },
+    {
+      "type": "mesh",
+      "model": "models/airship.obj",
+      "position": [
+        0,
+        29,
+        -48
+      ],
+      "drift": {
+        "velocity": [
+          1.3,
+          0,
+          0
+        ],
+        "wrap": [
+          -75,
+          75
+        ]
+      },
+      "bob": {
+        "amount": [
+          0,
+          0.6,
+          0
+        ],
+        "period": 9
+      },
+      "pulse": {
+        "period": 1.2,
+        "min": 0.2
+      }
+    },
+    {
+      "type": "particles",
+      "count": 220,
+      "seed": 9,
+      "box": [
+        -30,
+        0,
+        -50,
+        50,
+        24,
+        10
+      ],
+      "velocity": [
+        0.1,
+        0.45,
+        0
+      ],
+      "jitter": 0.7,
+      "size": 0.22,
+      "color": "#78ffad",
+      "opacity": 0.75,
+      "blend": "add"
+    },
+    {
+      "type": "mesh",
+      "model": "models/foreground.obj",
+      "position": [
+        0,
+        1.5,
+        26
+      ],
+      "pulse": {
+        "period": 2.4,
+        "min": 0.75
+      }
+    },
+    {
+      "type": "particles",
+      "count": 60,
+      "seed": 3,
+      "box": [
+        -16,
+        4,
+        30,
+        24,
+        20,
+        50
+      ],
+      "velocity": [
+        0.25,
+        -0.06,
+        0
+      ],
+      "jitter": 0.5,
+      "size": 0.05,
+      "color": "#c9dcd3",
+      "opacity": 0.35,
+      "blend": "add"
+    }
+  ]
+}

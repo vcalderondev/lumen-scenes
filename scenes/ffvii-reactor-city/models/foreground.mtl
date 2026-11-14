@@ -1,0 +1,5 @@
+newmtl lamp
+Kd 1 0.7804 0.4667
+Ke 1 0.7804 0.4667
+newmtl rail
+Kd 0.0784 0.102 0.098

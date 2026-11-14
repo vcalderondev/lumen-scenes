@@ -1,0 +1,14 @@
+{
+  "name": "lumen-scenes",
+  "private": true,
+  "type": "module",
+  "description": "Animated low-poly backgrounds with MIDI music for Lumen PSX, per game",
+  "scripts": {
+    "validate": "node tools/validate.mjs",
+    "index": "node tools/build-index.mjs",
+    "preview": "node tools/serve.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

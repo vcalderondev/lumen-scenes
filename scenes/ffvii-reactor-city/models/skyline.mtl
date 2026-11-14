@@ -1,0 +1,19 @@
+newmtl ground
+Kd 0.0392 0.0745 0.0627
+newmtl wall0
+Kd 0.1137 0.1451 0.1412
+newmtl wall1
+Kd 0.0902 0.1176 0.1137
+newmtl wall2
+Kd 0.1373 0.1725 0.1647
+newmtl roof
+Kd 0.0706 0.0941 0.0902
+newmtl win
+Kd 1 0.8118 0.451
+Ke 1 0.8118 0.451
+newmtl wing
+Kd 0.4902 1 0.6902
+Ke 0.4902 1 0.6902
+newmtl winb
+Kd 0.651 0.7961 0.8784
+Ke 0.651 0.7961 0.8784
