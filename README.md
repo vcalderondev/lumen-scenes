@@ -3,7 +3,7 @@
 Animated, low-poly backgrounds with MIDI music for the games in
 [Lumen PSX](https://github.com/vcalderondev/lumen-psx), the home screen for the PlayStation
 Classic. When you select a game, Lumen draws its scene behind the dashboard and plays its
-music. The [library manager](https://lpsx.vcalderon.dev/admin) finds the scenes made for the
+music. The [library manager](https://lpsx.dev/admin) finds the scenes made for the
 games on your USB stick and installs them in one click.
 
 Each scene is a small folder: a `scene.json` with layers (sky gradient, stars, flat-shaded
